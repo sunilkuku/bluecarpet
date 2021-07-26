@@ -147,8 +147,10 @@
       </div>
       <div class="row bordertop text-center pt-5">
       <p class="col-md-12">
-      Copyright &copy; <script>(new Date().getFullYear());
-                      </script> All rights reserved | Blue Carpet <i class="fa fa-heart" aria-hidden="true"></i>  Powered by <a href="https://whitespacess.com/" target="_blank">White Space Technologies</a>
+      Copyright &copy; <script>
+        var dt = new Date();
+        document.write("" + dt.getFullYear() );
+     </script> All rights reserved | Blue Carpet <i class="fa fa-heart" aria-hidden="true"></i>  Powered by <a href="https://whitespacess.com/" target="_blank">White Space Technologies</a>
       </p>
       
       </div>
@@ -163,13 +165,5 @@
       <script src="js/animsition.min.js"></script>
       <script src="js/aos.js"></script>
       <script src="js/main.js"></script>
-      
-      <!-- <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'UA-23581568-13');
-      </script> -->
       </body>
       </html>
